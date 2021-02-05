@@ -1,0 +1,15 @@
+node_modules/**/*
+.expo/*
+npm-debug.*
+.env.development
+.env.production
+functions/secrets/*
+.idea/*
+functions/node_modules/*
+
+.vscode
+.vscode/*
+
+.tmp
+
+.expo

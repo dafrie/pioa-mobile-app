@@ -1,0 +1,239 @@
+{
+  "id": "48803b34-1026-4186-beef-95bba7264f42",
+  "numberOfQuestions": 14,
+  "numberOfPages": 2,
+  "pages": [
+    {
+      "id": "162569a6-d4df-4ed1-9e8c-c594954a3e7c",
+      "type": "page",
+      "title": "Infection form",
+      "cards": [
+        {
+          "id": "9eeee5c8-ef7c-4741-a17d-6c14c74eed26",
+          "type": "card",
+          "title": "Remarks",
+          "cols": []
+        },
+        {
+          "id": "f9d2fd42-d77b-4b6f-8607-c89eb87b06d1",
+          "type": "card",
+          "title": "Diagnosis",
+          "cols": [
+            {
+              "type": "col-1",
+              "id": "a556284c-2881-4669-a0e3-58884bfb8aa2",
+              "elements": [
+                null
+              ]
+            },
+            {
+              "type": "col-1",
+              "id": "ab48e626-b3cf-44a4-badf-2c84c6c9d4e8",
+              "elements": [
+                {
+                  "id": "b9c4a825-ea28-4a31-9c55-c77fb20c7658",
+                  "type": "textArea",
+                  "label": "other",
+                  "height": 50,
+                  "objectName": "other"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "da675a73-270c-4f0a-bd40-54ca1b6d402d",
+          "mode": "multi",
+          "type": "card",
+          "title": "Location",
+          "cols": [
+            {
+              "type": "col-1",
+              "id": "b7fa72df-bcfb-4c5c-8a40-85c5be2dd8f3",
+              "elements": [
+                {
+                  "id": "18aba70f-5298-457b-9500-6b06b2b0e633",
+                  "type": "textArea",
+                  "label": "other",
+                  "height": 50,
+                  "objectName": "other"
+                }
+              ]
+            },
+            {
+              "type": "col-2",
+              "id": "ed4226b7-8bfd-4809-95a6-5b2f46fbed42",
+              "elements": [
+                {
+                  "id": "e9faa7ff-c5e7-4954-a3c1-a1c6a3d9842d",
+                  "type": "checkBox",
+                  "label": "Left",
+                  "objectName": "locLeft",
+                  "defaultValue": true
+                },
+                {}
+              ]
+            },
+            {
+              "type": "col-3",
+              "id": "a5ae8ae3-042f-4b33-9c8b-0633f8ef2184",
+              "elements": [
+                {
+                  "id": "3eadeb4e-5e28-426d-9f9b-47ef9b95fb0b",
+                  "type": "checkBox",
+                  "label": "C",
+                  "objectName": "c",
+                  "defaultValue": true
+                },
+                {
+                  "id": "6a022514-d74a-4dcc-98a4-0411ce96e625",
+                  "type": "checkBox",
+                  "label": "T",
+                  "objectName": "t",
+                  "defaultValue": false
+                },
+                {
+                  "id": "09f792d9-486e-4c1c-8836-d32514b29acb",
+                  "type": "checkBox",
+                  "label": "L",
+                  "objectName": "l",
+                  "defaultValue": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1cac90fe-4853-4486-a479-4e52b7019b28",
+          "mode": "multi",
+          "type": "card",
+          "title": "Location joints",
+          "cols": [
+            {
+              "type": "col-1",
+              "id": "eae147b0-47aa-45f4-bde5-dfb37172640b",
+              "elements": [
+                {
+                  "id": "cea50c91-1ee6-48a1-bc52-40c1c2912ad6",
+                  "type": "textArea",
+                  "label": "other",
+                  "height": 50,
+                  "objectName": "other"
+                }
+              ]
+            },
+            {
+              "type": "col-2",
+              "id": "a7f9a1e9-d6be-4c3f-9103-4a589ac2115f",
+              "elements": [
+                {
+                  "id": "1983d3f0-a868-4261-8423-d398abd274aa",
+                  "type": "checkBox",
+                  "label": "Left",
+                  "objectName": "locLeft",
+                  "defaultValue": true
+                },
+                {
+                  "id": "95a0d114-e553-45c0-ab9f-04107f1fcf3b",
+                  "type": "checkBox",
+                  "label": "Right",
+                  "objectName": "locRight",
+                  "defaultValue": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "b482679e-1f0f-437a-9c4b-2cdc0d702643",
+          "mode": "multi",
+          "type": "card",
+          "title": "History",
+          "cols": [
+            {
+              "type": "col-1",
+              "id": "820f4b94-6106-47b6-b84f-2a367b6a5036",
+              "elements": [
+                {
+                  "id": "f1955ce4-60d6-4345-90c3-6f2a0d893179",
+                  "required": true,
+                  "type": "modalPicker",
+                  "singleRow": true,
+                  "label": "History",
+                  "objectName": "history",
+                  "options": [
+                    {
+                      "key": "0",
+                      "label": "trauma"
+                    },
+                    {
+                      "key": "1",
+                      "label": "intervention joint \n (aspiration, injection)"
+                    },
+                    {
+                      "key": "2",
+                      "label": "septicemia / infection \n bacteremia"
+                    },
+                    {
+                      "key": "7",
+                      "label": "unknown history"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "col-1",
+              "id": "d188f35f-2744-48c5-bcd6-32b66a2cfc99",
+              "elements": [
+                {
+                  "id": "0be3263a-d062-4b64-8132-53180081827b",
+                  "type": "textArea",
+                  "singleRow": true,
+                  "label": "other",
+                  "height": 50,
+                  "objectName": "other"
+                }
+              ]
+            },
+            {
+              "type": "col-1",
+              "id": "644b68fb-59bd-4fa5-af3b-de8669aab023",
+              "elements": [
+                {
+                  "id": "dfe285cb-0fbf-47aa-bd13-393892ca1353",
+                  "type": "dateField",
+                  "singleRow": true,
+                  "required": true,
+                  "objectName": "date",
+                  "label": "Date"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4e57b133-c182-4a34-903b-70b2e8e27502",
+      "type": "page",
+      "title": "Remarks",
+      "cards": [
+        {
+          "id": "388fb5c8-ef7c-4741-a17d-6c14c7444d26",
+          "type": "card",
+          "title": "Remarks",
+          "cols": [
+            {
+              "type": "col-1",
+              "id": "a556284c-2881-4669-a0e3-58884bfb8aa2",
+              "elements": [
+                null
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

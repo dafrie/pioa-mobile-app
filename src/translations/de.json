@@ -1,0 +1,11 @@
+{
+  "auth": {
+    "header": "Bitte anmelden",
+    "name": "Name",
+    "password": "Passwort"
+  },
+  "welcome": {
+    "title": "Deutsch test",
+    "introduction": "Testetst"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "name": "PIOA App",
+    "description": "This project is really great.",
+    "slug": "pioa-app",
+    "privacy": "unlisted",
+    "sdkVersion": "32.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.2.0",
+    "orientation": "portrait",
+    "icon": "./assets/static/icon.png",
+    "splash": {
+      "image": "./assets/static/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#363570"
+    },
+    "primaryColor": "#363570",
+    "assetBundlePatterns": ["assets/static/*"],
+    "ios": {
+      "bundleIdentifier": "net.pioa.net",
+      "buildNumber": "1.2.0",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to allow you to add photos to the patient file.",
+        "NSPhotoLibraryAddUsageDescription": "This app uses the camera to allow you to add images to the patient file.",
+        "NSPhotoLibraryUsageDescription": "By giving this app permission to view your photos, you can add photos/scans to the patient file."
+      },
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "net.pioa.pioaapp",
+      "versionCode": 13,
+      "permissions": ["CAMERA", "MANAGE_DOCUMENT, CAMERA_ROLL"]
+    },
+    "extra": {
+      "primaryColor": "#363570",
+      "primaryLightColor": "#645f9f",
+      "secondaryColor": "#57c6a7",
+      "secondaryLightColor": "#8bf9d8",
+      "transparentPrimaryColor": "rgba(54, 53, 112, 0.8)",
+      "transparentSecondaryColor": "rgba(87,198,167, 0.8)",
+      "textPrimaryColor": "white",
+      "textSecondaryColor": "black",
+      "errorColor": "#E23E00"
+    },
+    "scheme": "pioa-app",
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "pioa",
+            "project": "pioa-app",
+            "authToken": "7a1a175ee3574d79aa24e376ab70a95bb7b3a4b01dd2415badb36ba5b8213a58"
+          }
+        }
+      ]
+    }
+  }
+}
